@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udp.Demo.Sender", "Udp.Demo.Sender\Udp.Demo.Sender.csproj", "{8E7F79C7-1764-40E5-AA37-314C47462002}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Udp.Demo.Sender", "Udp.Demo.Sender\Udp.Demo.Sender.csproj", "{8E7F79C7-1764-40E5-AA37-314C47462002}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udp.Demo.Reciever", "Udp.Demo.Reciever\Udp.Demo.Reciever.csproj", "{2FA1BC2C-CF26-4422-A6BD-E3C74BE332FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Udp.Demo.Reciever", "Udp.Demo.Reciever\Udp.Demo.Reciever.csproj", "{2FA1BC2C-CF26-4422-A6BD-E3C74BE332FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udp.Demo.API", "Udp.Demo.API\Udp.Demo.API.csproj", "{F4045044-4AB8-42CD-9AA6-1E42F4C4AD2F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{2FA1BC2C-CF26-4422-A6BD-E3C74BE332FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FA1BC2C-CF26-4422-A6BD-E3C74BE332FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FA1BC2C-CF26-4422-A6BD-E3C74BE332FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4045044-4AB8-42CD-9AA6-1E42F4C4AD2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4045044-4AB8-42CD-9AA6-1E42F4C4AD2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4045044-4AB8-42CD-9AA6-1E42F4C4AD2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4045044-4AB8-42CD-9AA6-1E42F4C4AD2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
